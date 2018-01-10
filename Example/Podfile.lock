@@ -1,0 +1,19 @@
+PODS:
+  - JAButton (0.1.0):
+    - JACategoryKit/UIView_JAFrame
+  - JACategoryKit/UIView_JAFrame (0.1.0)
+
+DEPENDENCIES:
+  - JAButton (from `../`)
+
+EXTERNAL SOURCES:
+  JAButton:
+    :path: ../
+
+SPEC CHECKSUMS:
+  JAButton: 1075307776a19d49112f7a56071a601f106207e7
+  JACategoryKit: 31435db16afd6d15f75c5cd591ac3c304f012499
+
+PODFILE CHECKSUM: 729303614b5989ac6c86fec59d8537ea070e4057
+
+COCOAPODS: 1.3.1

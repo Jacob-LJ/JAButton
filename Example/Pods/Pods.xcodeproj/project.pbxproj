@@ -1,0 +1,908 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		418219A751FEEB2487F087A6BC7574CF /* JACategoryKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BE9BB6057AA9ACBC8FC9472685758A2F /* JACategoryKit-dummy.m */; };
+		5D5FCBFC35E596F9AE82E71B2428A694 /* JAButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F23255BC815A3C6C72F709B81FB87AC3 /* JAButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		638DA51FA501DA241C43E3FA06053DE1 /* JAButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B60C01A704333F8187CE06809C0EAB2F /* JAButton-dummy.m */; };
+		6CCB1794D0B2E777299335BC2D47A613 /* JACategoryKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7704767852A8DAE514AD2FA6DF1734EF /* JACategoryKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		72E3A23CFEDE09C9E52B35DC7493FAB4 /* JAButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D6D604F32015240FEF15F203A951A1E /* JAButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		88E30ADD5DB3830467F23DDCB67C1AD4 /* Pods-JAButton_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E5895A94BC861EDBAF0D0887A2E1B96F /* Pods-JAButton_Example-dummy.m */; };
+		8DC711BCFA5B638E50BD262139DCAB89 /* UIView+JAFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = BFA1ECBA6DA68BA63BD3249C5B0760C7 /* UIView+JAFrame.m */; };
+		8E2E03F9AE6176611BB956210BA69A8E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D04480CD0D51EADBA21A01D499CF259F /* Foundation.framework */; };
+		9F8ACAB4ACAC3DB9BA4A8B84F512A3CE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D04480CD0D51EADBA21A01D499CF259F /* Foundation.framework */; };
+		A344C5E03589BEB9E41D8CB366A84372 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D04480CD0D51EADBA21A01D499CF259F /* Foundation.framework */; };
+		B5CE0FEC237D3194A0735CF1C67E269F /* JACategoryKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6344F03B1BDA1BFAE989520B499D876D /* JACategoryKit.framework */; };
+		ECF3208D3BFF92F4D0AE2EC375DC078F /* Pods-JAButton_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 860434B6E4FD4FE0CFD07BBFD85EA51B /* Pods-JAButton_Tests-dummy.m */; };
+		ED04206F0B1EBFF5AA88E5AA724DC1D9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D04480CD0D51EADBA21A01D499CF259F /* Foundation.framework */; };
+		F1800934B92C20A392D2D95F03AFECB8 /* Pods-JAButton_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6BDDB918CA40943930FB18E9F4023447 /* Pods-JAButton_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F3180645FBDA8B2CB6317D9A428EF364 /* Pods-JAButton_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F4920FB654E9178B2C591FB2786AC6D /* Pods-JAButton_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F3A40428F0577B5E0F1CA3743FDAD287 /* JAButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DBABC22A5DAF03F5454D15F36F88E64 /* JAButton.m */; };
+		F50EBB007A8D2B2746E6DA9E4B3E2BB1 /* UIView+JAFrame.h in Headers */ = {isa = PBXBuildFile; fileRef = 074D7641523A846C3EC24C46C9A40D52 /* UIView+JAFrame.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		348500FE1FD5A15275040EA813EACBD2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3DD3459A7D481F8C9F53293A0F1F57FF;
+			remoteInfo = JACategoryKit;
+		};
+		81EA1679ECDBD9ED095E8E2DBAC8DD07 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3182FE9B5CF33679ECE6AB87671FE9F0;
+			remoteInfo = JAButton;
+		};
+		B9E9D876C683C4FE07FFD44E4E0FCA82 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3DD3459A7D481F8C9F53293A0F1F57FF;
+			remoteInfo = JACategoryKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		074D7641523A846C3EC24C46C9A40D52 /* UIView+JAFrame.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+JAFrame.h"; path = "JACategoryKit/Classes/UIView_JAFrame/UIView+JAFrame.h"; sourceTree = "<group>"; };
+		17F51C65D8FF7A8D6449B6A85A0EEE68 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		200E18FB473B58930D12F41B063781D0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		29DAE1C0BBE112CAE72A54E2BF7D8407 /* Pods-JAButton_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JAButton_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		2B8FCFAA2F2B79B4EAB78B07F65B0767 /* Pods-JAButton_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JAButton_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		31B6E93D7947961E46F12A0253147E9D /* JACategoryKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = JACategoryKit.modulemap; sourceTree = "<group>"; };
+		3963B8C1B254A1C306DAE56A6105AF60 /* Pods_JAButton_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JAButton_Tests.framework; path = "Pods-JAButton_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3981F1AE431EB51275BC05BF499D9BDA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DBABC22A5DAF03F5454D15F36F88E64 /* JAButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JAButton.m; path = JAButton/Classes/JAButton.m; sourceTree = "<group>"; };
+		4CBEF7B7FB4E61A389481A46CAB9E8D4 /* Pods-JAButton_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-JAButton_Tests.modulemap"; sourceTree = "<group>"; };
+		53D48C9787AE6E5D6EC0CCBF38F047D4 /* JAButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JAButton-prefix.pch"; sourceTree = "<group>"; };
+		5B551E40F14AD3847216C15271832134 /* Pods-JAButton_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JAButton_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5D6D604F32015240FEF15F203A951A1E /* JAButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JAButton.h; path = JAButton/Classes/JAButton.h; sourceTree = "<group>"; };
+		600E6D6A720C2AFD627C9D031732FA5A /* Pods-JAButton_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-JAButton_Example.modulemap"; sourceTree = "<group>"; };
+		6344F03B1BDA1BFAE989520B499D876D /* JACategoryKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JACategoryKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BDDB918CA40943930FB18E9F4023447 /* Pods-JAButton_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JAButton_Tests-umbrella.h"; sourceTree = "<group>"; };
+		71B2A162F50A0AADBEAFB8DE56F24C33 /* Pods-JAButton_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JAButton_Tests-resources.sh"; sourceTree = "<group>"; };
+		7704767852A8DAE514AD2FA6DF1734EF /* JACategoryKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JACategoryKit-umbrella.h"; sourceTree = "<group>"; };
+		77C716D62FA7A5E14A6F8322872ADCC5 /* Pods-JAButton_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JAButton_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		79B0DE3A1743F579DA6E84867CB1FDA4 /* JAButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JAButton.framework; path = JAButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C5460A64CC24CDE567959636AC2E3D4 /* Pods_JAButton_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JAButton_Example.framework; path = "Pods-JAButton_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		82B9C237A53279D6CFF17C5A7D25E5C2 /* Pods-JAButton_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JAButton_Example-resources.sh"; sourceTree = "<group>"; };
+		860434B6E4FD4FE0CFD07BBFD85EA51B /* Pods-JAButton_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JAButton_Tests-dummy.m"; sourceTree = "<group>"; };
+		8F4920FB654E9178B2C591FB2786AC6D /* Pods-JAButton_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JAButton_Example-umbrella.h"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		954DC37CD0B5EDCB823685F103D7CF52 /* Pods-JAButton_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JAButton_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9BBE7FD19758D3DF7293DEA044E0CE0B /* JACategoryKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JACategoryKit-prefix.pch"; sourceTree = "<group>"; };
+		A91E41063BEEF59E547F9EED49DA7604 /* JACategoryKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JACategoryKit.framework; path = JACategoryKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B60C01A704333F8187CE06809C0EAB2F /* JAButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JAButton-dummy.m"; sourceTree = "<group>"; };
+		B94BDAB88CE32930DBC948031ECBCD7F /* Pods-JAButton_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JAButton_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		BD49D551FB284D2D883EE496F5599203 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE9BB6057AA9ACBC8FC9472685758A2F /* JACategoryKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JACategoryKit-dummy.m"; sourceTree = "<group>"; };
+		BFA1ECBA6DA68BA63BD3249C5B0760C7 /* UIView+JAFrame.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+JAFrame.m"; path = "JACategoryKit/Classes/UIView_JAFrame/UIView+JAFrame.m"; sourceTree = "<group>"; };
+		C86BD72B18C77DF70B1AB77077F92D8C /* Pods-JAButton_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JAButton_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		CADF94F54374E62A4E44D1CEBDB4049F /* Pods-JAButton_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JAButton_Example.release.xcconfig"; sourceTree = "<group>"; };
+		D04480CD0D51EADBA21A01D499CF259F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D06C45B3BC16FC5FE03D78B8D52045CB /* Pods-JAButton_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JAButton_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		D3C85E29C8228F1B6AE60E40478EED90 /* JACategoryKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JACategoryKit.xcconfig; sourceTree = "<group>"; };
+		E11AD6DCE4A4D0A81B0B695503A33711 /* JAButton.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JAButton.xcconfig; sourceTree = "<group>"; };
+		E5895A94BC861EDBAF0D0887A2E1B96F /* Pods-JAButton_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JAButton_Example-dummy.m"; sourceTree = "<group>"; };
+		F23255BC815A3C6C72F709B81FB87AC3 /* JAButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JAButton-umbrella.h"; sourceTree = "<group>"; };
+		FC39A14B75E0DCA651045F065A589A37 /* Pods-JAButton_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JAButton_Example-frameworks.sh"; sourceTree = "<group>"; };
+		FEF78B6D6D562CA9C45E96ACDD19F53E /* JAButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = JAButton.modulemap; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		08D3AD2F93CF3A02B90DCE7CD5498544 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A344C5E03589BEB9E41D8CB366A84372 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3825BBDB022B570523C67B4333CE9EA6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED04206F0B1EBFF5AA88E5AA724DC1D9 /* Foundation.framework in Frameworks */,
+				B5CE0FEC237D3194A0735CF1C67E269F /* JACategoryKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFDEABA2351800AF63661A6D2DF430E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E2E03F9AE6176611BB956210BA69A8E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB794BF0C2F11B1E5E1260673BCD32A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F8ACAB4ACAC3DB9BA4A8B84F512A3CE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1C615F5259D2AF2577A4A084CB65146F /* Pods-JAButton_Example */ = {
+			isa = PBXGroup;
+			children = (
+				BD49D551FB284D2D883EE496F5599203 /* Info.plist */,
+				600E6D6A720C2AFD627C9D031732FA5A /* Pods-JAButton_Example.modulemap */,
+				5B551E40F14AD3847216C15271832134 /* Pods-JAButton_Example-acknowledgements.markdown */,
+				C86BD72B18C77DF70B1AB77077F92D8C /* Pods-JAButton_Example-acknowledgements.plist */,
+				E5895A94BC861EDBAF0D0887A2E1B96F /* Pods-JAButton_Example-dummy.m */,
+				FC39A14B75E0DCA651045F065A589A37 /* Pods-JAButton_Example-frameworks.sh */,
+				82B9C237A53279D6CFF17C5A7D25E5C2 /* Pods-JAButton_Example-resources.sh */,
+				8F4920FB654E9178B2C591FB2786AC6D /* Pods-JAButton_Example-umbrella.h */,
+				77C716D62FA7A5E14A6F8322872ADCC5 /* Pods-JAButton_Example.debug.xcconfig */,
+				CADF94F54374E62A4E44D1CEBDB4049F /* Pods-JAButton_Example.release.xcconfig */,
+			);
+			name = "Pods-JAButton_Example";
+			path = "Target Support Files/Pods-JAButton_Example";
+			sourceTree = "<group>";
+		};
+		53EB55EC82D4A7B6FE6D36032D80C16C /* JAButton */ = {
+			isa = PBXGroup;
+			children = (
+				5D6D604F32015240FEF15F203A951A1E /* JAButton.h */,
+				3DBABC22A5DAF03F5454D15F36F88E64 /* JAButton.m */,
+				8BFE3F373EFE158A4145F52EDF993577 /* Support Files */,
+			);
+			name = JAButton;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		5F06526D5EA9C322376DD59DF75A813E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				79B0DE3A1743F579DA6E84867CB1FDA4 /* JAButton.framework */,
+				A91E41063BEEF59E547F9EED49DA7604 /* JACategoryKit.framework */,
+				7C5460A64CC24CDE567959636AC2E3D4 /* Pods_JAButton_Example.framework */,
+				3963B8C1B254A1C306DAE56A6105AF60 /* Pods_JAButton_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6E4154B993AADC34086099C9AA0C99A9 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D04480CD0D51EADBA21A01D499CF259F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		713C1BE7113BD7C8EF3966B4B81BE9BC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6344F03B1BDA1BFAE989520B499D876D /* JACategoryKit.framework */,
+				6E4154B993AADC34086099C9AA0C99A9 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				B6C6B55EA4BE1F9B6BE512AE5DA7E098 /* Development Pods */,
+				713C1BE7113BD7C8EF3966B4B81BE9BC /* Frameworks */,
+				E2EBD9BFC12A5589CE4408BAA84F0A8F /* Pods */,
+				5F06526D5EA9C322376DD59DF75A813E /* Products */,
+				9668B5AA586C6137AB58D8E5ED339673 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		83C746F91CA317177D0F8FA64AE041C5 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				200E18FB473B58930D12F41B063781D0 /* Info.plist */,
+				31B6E93D7947961E46F12A0253147E9D /* JACategoryKit.modulemap */,
+				D3C85E29C8228F1B6AE60E40478EED90 /* JACategoryKit.xcconfig */,
+				BE9BB6057AA9ACBC8FC9472685758A2F /* JACategoryKit-dummy.m */,
+				9BBE7FD19758D3DF7293DEA044E0CE0B /* JACategoryKit-prefix.pch */,
+				7704767852A8DAE514AD2FA6DF1734EF /* JACategoryKit-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/JACategoryKit";
+			sourceTree = "<group>";
+		};
+		8761D6B5535E510E43FF3D95E91BEB25 /* JACategoryKit */ = {
+			isa = PBXGroup;
+			children = (
+				83C746F91CA317177D0F8FA64AE041C5 /* Support Files */,
+				D7655525ABB5FB0051F9541EF636A2A8 /* UIView_JAFrame */,
+			);
+			name = JACategoryKit;
+			path = JACategoryKit;
+			sourceTree = "<group>";
+		};
+		8BFE3F373EFE158A4145F52EDF993577 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				17F51C65D8FF7A8D6449B6A85A0EEE68 /* Info.plist */,
+				FEF78B6D6D562CA9C45E96ACDD19F53E /* JAButton.modulemap */,
+				E11AD6DCE4A4D0A81B0B695503A33711 /* JAButton.xcconfig */,
+				B60C01A704333F8187CE06809C0EAB2F /* JAButton-dummy.m */,
+				53D48C9787AE6E5D6EC0CCBF38F047D4 /* JAButton-prefix.pch */,
+				F23255BC815A3C6C72F709B81FB87AC3 /* JAButton-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/JAButton";
+			sourceTree = "<group>";
+		};
+		9668B5AA586C6137AB58D8E5ED339673 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1C615F5259D2AF2577A4A084CB65146F /* Pods-JAButton_Example */,
+				BE055860627B9C54679CB6D018596131 /* Pods-JAButton_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		B6C6B55EA4BE1F9B6BE512AE5DA7E098 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				53EB55EC82D4A7B6FE6D36032D80C16C /* JAButton */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		BE055860627B9C54679CB6D018596131 /* Pods-JAButton_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				3981F1AE431EB51275BC05BF499D9BDA /* Info.plist */,
+				4CBEF7B7FB4E61A389481A46CAB9E8D4 /* Pods-JAButton_Tests.modulemap */,
+				954DC37CD0B5EDCB823685F103D7CF52 /* Pods-JAButton_Tests-acknowledgements.markdown */,
+				2B8FCFAA2F2B79B4EAB78B07F65B0767 /* Pods-JAButton_Tests-acknowledgements.plist */,
+				860434B6E4FD4FE0CFD07BBFD85EA51B /* Pods-JAButton_Tests-dummy.m */,
+				D06C45B3BC16FC5FE03D78B8D52045CB /* Pods-JAButton_Tests-frameworks.sh */,
+				71B2A162F50A0AADBEAFB8DE56F24C33 /* Pods-JAButton_Tests-resources.sh */,
+				6BDDB918CA40943930FB18E9F4023447 /* Pods-JAButton_Tests-umbrella.h */,
+				B94BDAB88CE32930DBC948031ECBCD7F /* Pods-JAButton_Tests.debug.xcconfig */,
+				29DAE1C0BBE112CAE72A54E2BF7D8407 /* Pods-JAButton_Tests.release.xcconfig */,
+			);
+			name = "Pods-JAButton_Tests";
+			path = "Target Support Files/Pods-JAButton_Tests";
+			sourceTree = "<group>";
+		};
+		D7655525ABB5FB0051F9541EF636A2A8 /* UIView_JAFrame */ = {
+			isa = PBXGroup;
+			children = (
+				074D7641523A846C3EC24C46C9A40D52 /* UIView+JAFrame.h */,
+				BFA1ECBA6DA68BA63BD3249C5B0760C7 /* UIView+JAFrame.m */,
+			);
+			name = UIView_JAFrame;
+			sourceTree = "<group>";
+		};
+		E2EBD9BFC12A5589CE4408BAA84F0A8F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8761D6B5535E510E43FF3D95E91BEB25 /* JACategoryKit */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		66E1C80949488AF080DE10366456B474 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CCB1794D0B2E777299335BC2D47A613 /* JACategoryKit-umbrella.h in Headers */,
+				F50EBB007A8D2B2746E6DA9E4B3E2BB1 /* UIView+JAFrame.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		896FE0D643CF02A508B108260FAE7DBE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D5FCBFC35E596F9AE82E71B2428A694 /* JAButton-umbrella.h in Headers */,
+				72E3A23CFEDE09C9E52B35DC7493FAB4 /* JAButton.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA314AC856F114E3EC1BEAB2F1C7DE4C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3180645FBDA8B2CB6317D9A428EF364 /* Pods-JAButton_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE7B8F3742C2BB33F37CBBB641408603 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1800934B92C20A392D2D95F03AFECB8 /* Pods-JAButton_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3182FE9B5CF33679ECE6AB87671FE9F0 /* JAButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7AC35D73ECD5F736239BB2DD107BB71E /* Build configuration list for PBXNativeTarget "JAButton" */;
+			buildPhases = (
+				8569BC437387CDB036DD19C487C946CB /* Sources */,
+				3825BBDB022B570523C67B4333CE9EA6 /* Frameworks */,
+				896FE0D643CF02A508B108260FAE7DBE /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AE438B896783E5E343D4464D2991BA3B /* PBXTargetDependency */,
+			);
+			name = JAButton;
+			productName = JAButton;
+			productReference = 79B0DE3A1743F579DA6E84867CB1FDA4 /* JAButton.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		3DD3459A7D481F8C9F53293A0F1F57FF /* JACategoryKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F841265E337BA6F4C9DE0490E4241591 /* Build configuration list for PBXNativeTarget "JACategoryKit" */;
+			buildPhases = (
+				DC67ACDCF5BCB5D3C20E1711E8287870 /* Sources */,
+				FB794BF0C2F11B1E5E1260673BCD32A6 /* Frameworks */,
+				66E1C80949488AF080DE10366456B474 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JACategoryKit;
+			productName = JACategoryKit;
+			productReference = A91E41063BEEF59E547F9EED49DA7604 /* JACategoryKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5D10FA1C1CA0FBB42973D4DF763A1F68 /* Pods-JAButton_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D9607CF5D0D71991BFDB8FC1689E273 /* Build configuration list for PBXNativeTarget "Pods-JAButton_Example" */;
+			buildPhases = (
+				2ED5325B0609D828E7F39E7F8ACF2421 /* Sources */,
+				DFDEABA2351800AF63661A6D2DF430E9 /* Frameworks */,
+				AA314AC856F114E3EC1BEAB2F1C7DE4C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2BC03FE9CEDE204D833802EACA3631D7 /* PBXTargetDependency */,
+				DA09AB784A4B15FD48841F879A1B44CD /* PBXTargetDependency */,
+			);
+			name = "Pods-JAButton_Example";
+			productName = "Pods-JAButton_Example";
+			productReference = 7C5460A64CC24CDE567959636AC2E3D4 /* Pods_JAButton_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		AE7E716C641C6BE8DB63337C85F5B406 /* Pods-JAButton_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78EAF7D57D0A6535F4DD9F8589CB9763 /* Build configuration list for PBXNativeTarget "Pods-JAButton_Tests" */;
+			buildPhases = (
+				AB5BCF4F70AFE493594C584C8AEBCF4D /* Sources */,
+				08D3AD2F93CF3A02B90DCE7CD5498544 /* Frameworks */,
+				CE7B8F3742C2BB33F37CBBB641408603 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-JAButton_Tests";
+			productName = "Pods-JAButton_Tests";
+			productReference = 3963B8C1B254A1C306DAE56A6105AF60 /* Pods_JAButton_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 5F06526D5EA9C322376DD59DF75A813E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3182FE9B5CF33679ECE6AB87671FE9F0 /* JAButton */,
+				3DD3459A7D481F8C9F53293A0F1F57FF /* JACategoryKit */,
+				5D10FA1C1CA0FBB42973D4DF763A1F68 /* Pods-JAButton_Example */,
+				AE7E716C641C6BE8DB63337C85F5B406 /* Pods-JAButton_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2ED5325B0609D828E7F39E7F8ACF2421 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88E30ADD5DB3830467F23DDCB67C1AD4 /* Pods-JAButton_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8569BC437387CDB036DD19C487C946CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				638DA51FA501DA241C43E3FA06053DE1 /* JAButton-dummy.m in Sources */,
+				F3A40428F0577B5E0F1CA3743FDAD287 /* JAButton.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB5BCF4F70AFE493594C584C8AEBCF4D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECF3208D3BFF92F4D0AE2EC375DC078F /* Pods-JAButton_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC67ACDCF5BCB5D3C20E1711E8287870 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				418219A751FEEB2487F087A6BC7574CF /* JACategoryKit-dummy.m in Sources */,
+				8DC711BCFA5B638E50BD262139DCAB89 /* UIView+JAFrame.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2BC03FE9CEDE204D833802EACA3631D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JAButton;
+			target = 3182FE9B5CF33679ECE6AB87671FE9F0 /* JAButton */;
+			targetProxy = 81EA1679ECDBD9ED095E8E2DBAC8DD07 /* PBXContainerItemProxy */;
+		};
+		AE438B896783E5E343D4464D2991BA3B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JACategoryKit;
+			target = 3DD3459A7D481F8C9F53293A0F1F57FF /* JACategoryKit */;
+			targetProxy = 348500FE1FD5A15275040EA813EACBD2 /* PBXContainerItemProxy */;
+		};
+		DA09AB784A4B15FD48841F879A1B44CD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JACategoryKit;
+			target = 3DD3459A7D481F8C9F53293A0F1F57FF /* JACategoryKit */;
+			targetProxy = B9E9D876C683C4FE07FFD44E4E0FCA82 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0600AF4CDADEBB00E88089FF7840D28B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CADF94F54374E62A4E44D1CEBDB4049F /* Pods-JAButton_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JAButton_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JAButton_Example/Pods-JAButton_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_JAButton_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		086C77D5E2039F5EA365A05B4952D91B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29DAE1C0BBE112CAE72A54E2BF7D8407 /* Pods-JAButton_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JAButton_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JAButton_Tests/Pods-JAButton_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_JAButton_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		33DA7F43A1D2FA3C74A8C8FC246E1FA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		731DC216E1A58545B559F6E0A2418060 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		7BD2E54A02AD58812D87B15566A9BCA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3C85E29C8228F1B6AE60E40478EED90 /* JACategoryKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JACategoryKit/JACategoryKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JACategoryKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JACategoryKit/JACategoryKit.modulemap";
+				PRODUCT_NAME = JACategoryKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8AC07F756B631DDA8DDD6B934532400E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B94BDAB88CE32930DBC948031ECBCD7F /* Pods-JAButton_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JAButton_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JAButton_Tests/Pods-JAButton_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_JAButton_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C437763E293EF983360A4D10D32ED3A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E11AD6DCE4A4D0A81B0B695503A33711 /* JAButton.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JAButton/JAButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JAButton/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JAButton/JAButton.modulemap";
+				PRODUCT_NAME = JAButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D156B5DD3C62A7D50CA98FE1C6D5A7A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3C85E29C8228F1B6AE60E40478EED90 /* JACategoryKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JACategoryKit/JACategoryKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JACategoryKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JACategoryKit/JACategoryKit.modulemap";
+				PRODUCT_NAME = JACategoryKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D909EF5DBAB9641E68C2FA3D75C41F90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E11AD6DCE4A4D0A81B0B695503A33711 /* JAButton.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JAButton/JAButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JAButton/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JAButton/JAButton.modulemap";
+				PRODUCT_NAME = JAButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F85223923C9C07A348BF4295253026D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77C716D62FA7A5E14A6F8322872ADCC5 /* Pods-JAButton_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JAButton_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JAButton_Example/Pods-JAButton_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_JAButton_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0D9607CF5D0D71991BFDB8FC1689E273 /* Build configuration list for PBXNativeTarget "Pods-JAButton_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F85223923C9C07A348BF4295253026D9 /* Debug */,
+				0600AF4CDADEBB00E88089FF7840D28B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33DA7F43A1D2FA3C74A8C8FC246E1FA6 /* Debug */,
+				731DC216E1A58545B559F6E0A2418060 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		78EAF7D57D0A6535F4DD9F8589CB9763 /* Build configuration list for PBXNativeTarget "Pods-JAButton_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8AC07F756B631DDA8DDD6B934532400E /* Debug */,
+				086C77D5E2039F5EA365A05B4952D91B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7AC35D73ECD5F736239BB2DD107BB71E /* Build configuration list for PBXNativeTarget "JAButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C437763E293EF983360A4D10D32ED3A7 /* Debug */,
+				D909EF5DBAB9641E68C2FA3D75C41F90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F841265E337BA6F4C9DE0490E4241591 /* Build configuration list for PBXNativeTarget "JACategoryKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BD2E54A02AD58812D87B15566A9BCA0 /* Debug */,
+				D156B5DD3C62A7D50CA98FE1C6D5A7A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

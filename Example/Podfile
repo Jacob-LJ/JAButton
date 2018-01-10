@@ -1,3 +1,7 @@
+
+source 'https://github.com/CocoaPods/Specs.git'
+source 'https://github.com/Jacob-LJ/JASpecs.git'
+
 use_frameworks!
 
 target 'JAButton_Example' do

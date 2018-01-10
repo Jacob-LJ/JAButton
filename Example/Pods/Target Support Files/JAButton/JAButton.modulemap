@@ -1,0 +1,6 @@
+framework module JAButton {
+  umbrella header "JAButton-umbrella.h"
+
+  export *
+  module * { export * }
+}

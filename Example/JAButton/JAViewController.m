@@ -7,6 +7,8 @@
 //
 
 #import "JAViewController.h"
+#import "JAButton.h"
+
 
 @interface JAViewController ()
 
@@ -14,10 +16,18 @@
 
 @implementation JAViewController
 
-- (void)viewDidLoad
-{
+- (void)viewDidLoad {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    
+    JAButton *button = [JAButton JAButtonWithType:JAButtonTypeHorizontalCenterLabelImage spacing:12];
+    button.imageView.contentMode = UIViewContentModeScaleAspectFit;
+    button.backgroundColor = [UIColor lightGrayColor];
+    button.bounds = CGRectMake(0, 0, 150, 20);
+    button.center = self.view.center;
+    [button setTitle:@"douyu" forState:UIControlStateNormal];
+    [button setImage:[UIImage imageNamed:@"AppIcon60x60"] forState:UIControlStateNormal];
+    [self.view addSubview:button];
+	
 }
 
 - (void)didReceiveMemoryWarning

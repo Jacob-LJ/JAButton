@@ -37,7 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		05CFDCF0916C8636E1B4490B /* JAButton.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = JAButton.podspec; path = ../JAButton.podspec; sourceTree = "<group>"; };
+		05CFDCF0916C8636E1B4490B /* JAButton.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = JAButton.podspec; path = ../JAButton.podspec; sourceTree = "<group>"; };
 		0B168D52880D8DF41B303970 /* Pods-JAButton_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JAButton_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JAButton_Tests/Pods-JAButton_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		1FDE47B0316BDAC37DEBEA68 /* Pods_JAButton_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JAButton_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* JAButton_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JAButton_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -60,9 +60,9 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		6185B0963125650B96415CC0 /* Pods-JAButton_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JAButton_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-JAButton_Tests/Pods-JAButton_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		63FADC0EA9EFFFB3B4D7AC0B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		63FADC0EA9EFFFB3B4D7AC0B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		71D7F7A7C1089E03F2E9D42D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		71D7F7A7C1089E03F2E9D42D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B223BD3722BA9E5FB58D7D34 /* Pods_JAButton_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JAButton_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C772C1611E959D20C95C21F6 /* Pods-JAButton_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JAButton_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-JAButton_Example/Pods-JAButton_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -305,10 +305,12 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-JAButton_Example/Pods-JAButton_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/JAButton/JAButton.framework",
+				"${BUILT_PRODUCTS_DIR}/JACategoryKit/JACategoryKit.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JAButton.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JACategoryKit.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
