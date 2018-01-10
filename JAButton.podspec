@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 自定义label 和 imageView位置 Button.
                        DESC
 
-  s.homepage         = 'https://github.com/312846421@qq.com/JAButton'
+  s.homepage         = 'https://github.com/Jacob-LJ/JAButton'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { '312846421@qq.com' => '312846421@qq.com' }
-  s.source           = { :git => 'https://github.com/312846421@qq.com/JAButton.git', :tag => s.version.to_s }
+  s.author           = { 'Jacob' => '312846421@qq.com' }
+  s.source           = { :git => 'https://github.com/Jacob-LJ/JAButton.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
