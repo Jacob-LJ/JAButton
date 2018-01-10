@@ -22,7 +22,7 @@ pod 'JAButton'
 
 ## Author
 
-312846421@qq.com, 312846421@qq.com
+Jacob, 312846421@qq.com
 
 ## License
 
