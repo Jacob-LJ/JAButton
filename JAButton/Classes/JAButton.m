@@ -11,7 +11,7 @@
 
 @interface JAButton ()
 
-@property (nonatomic, weak) UIImageView *readDotImageV;
+@property (nonatomic, weak) UIImageView *dotImageV;
 
 @end
 
@@ -44,10 +44,17 @@
     _ja_type = JAButtonTypeHorizontalCenterImageLabel;
     [self setTitleColor:[UIColor darkTextColor] forState:UIControlStateNormal];
     
-    UIImageView *dotImageV = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"WIInvitation_Unread_Dot"]];
-    [self.imageView addSubview:dotImageV];
+    UIImageView *dotImageV = [[UIImageView alloc] init];
+    //default
     dotImageV.hidden = YES;
-    self.readDotImageV = dotImageV;
+    dotImageV.backgroundColor = [UIColor redColor];
+    dotImageV.bounds = CGRectMake(0, 0, 10, 10);
+    dotImageV.layer.cornerRadius = 5;
+    dotImageV.clipsToBounds = YES;
+    [self addSubview:dotImageV];
+    self.dotImageV = dotImageV;
+    
+    
 }
 
 - (UIView *)hitTest:(CGPoint)point withEvent:(UIEvent *)event {
@@ -139,7 +146,7 @@
         self.titleLabel.ja_y = self.ja_height - self.titleLabel.ja_height;
         self.imageView.ja_y = self.titleLabel.ja_y - self.ja_imageLabelSpacing - self.imageView.ja_height;
         
-    } else if (self.ja_type == JAButtonTypeVerticalLeftCenterImageLabel) {
+    } else if (self.ja_type == JAButtonTypeVerticalCenterLeftImageLabel) {
         
         CGFloat maxLabelWidth = self.ja_width - 2 * self.ja_minCenterMargin + 0.1;
         self.titleLabel.ja_width = MIN(maxLabelWidth, self.titleLabel.ja_width);
@@ -151,42 +158,39 @@
     }
     
     //handle dotImageV frame
-    switch (self.unreadDotAlignment) {
+    switch (self.ja_dotAlignment) {
         case JAButtonUnreadDotImageAlignmentRightTop: {
             
-            self.readDotImageV.ja_top = self.imageView.ja_top + self.dotImageInsets.top;
-            self.readDotImageV.ja_right = self.imageView.ja_right - self.dotImageInsets.right;
+            self.dotImageV.ja_top = self.imageView.ja_top + self.ja_dotImageInsets.top;
+            self.dotImageV.ja_right = self.imageView.ja_right - self.ja_dotImageInsets.right;
             break;
         }
         case JAButtonUnreadDotImageAlignmentLeftTop: {
-            self.readDotImageV.ja_top = self.imageView.ja_top + self.dotImageInsets.top;
-            self.readDotImageV.ja_left = self.imageView.ja_left + self.dotImageInsets.left;
+            self.dotImageV.ja_top = self.imageView.ja_top + self.ja_dotImageInsets.top;
+            self.dotImageV.ja_left = self.imageView.ja_left + self.ja_dotImageInsets.left;
             break;
         }
         case JAButtonUnreadDotImageAlignmentRightBottom: {
-            self.readDotImageV.ja_bottom = self.imageView.ja_bottom - self.dotImageInsets.bottom;
-            self.readDotImageV.ja_right = self.imageView.ja_right - self.dotImageInsets.right;
+            self.dotImageV.ja_bottom = self.imageView.ja_bottom - self.ja_dotImageInsets.bottom;
+            self.dotImageV.ja_right = self.imageView.ja_right - self.ja_dotImageInsets.right;
             break;
         }
         case JAButtonUnreadDotImageAlignmentLeftBottom: {
-            self.readDotImageV.ja_bottom = self.imageView.ja_bottom - self.dotImageInsets.bottom;
-            self.readDotImageV.ja_left = self.imageView.ja_left + self.dotImageInsets.left;
+            self.dotImageV.ja_bottom = self.imageView.ja_bottom - self.ja_dotImageInsets.bottom;
+            self.dotImageV.ja_left = self.imageView.ja_left + self.ja_dotImageInsets.left;
             break;
         }
-            
     }
     
 }
 
 - (void)setJa_type:(JAButtonType)ja_type {
     _ja_type = ja_type;
-    
     [self layoutSubviews];
 }
 
 - (void)setJa_imageLabelSpacing:(CGFloat)ja_imageLabelSpacing {
     _ja_imageLabelSpacing = ja_imageLabelSpacing;
-    
     [self layoutSubviews];
 }
 
@@ -231,8 +235,7 @@
     return [self titleForState:UIControlStateSelected];
 }
 
-
--(void)setJa_normalTitleColor:(UIColor *)ja_normalTitleColor {
+- (void)setJa_normalTitleColor:(UIColor *)ja_normalTitleColor {
     [self setTitleColor:ja_normalTitleColor forState:UIControlStateNormal];
 }
 
@@ -248,16 +251,10 @@
     return [self titleColorForState:UIControlStateSelected];
 }
 
-- (void)setUnreadDotImage:(UIImage *)unreadDotImage {
-    _unreadDotImage = unreadDotImage;
-    self.readDotImageV.image = unreadDotImage;
-    self.readDotImageV.ja_size = unreadDotImage.size;
-    [self layoutSubviews];
-}
-
-- (void)setShowUnreadDotImage:(BOOL)showUnreadDotImage {
-    _showUnreadDotImage = showUnreadDotImage;
-    self.readDotImageV.hidden = !showUnreadDotImage;
+- (void)makeDotImageSetUpVBlock:(void (^)(UIImageView *))dotImageVSetUpBlock {
+    if (dotImageVSetUpBlock) {
+        dotImageVSetUpBlock(self.dotImageV);
+    }
 }
 
 @end

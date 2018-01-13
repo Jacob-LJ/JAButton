@@ -8,8 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-typedef enum : NSUInteger {
-    
+typedef NS_ENUM(NSUInteger, JAButtonType) {
     JAButtonTypeHorizontalCenterImageLabel,
     JAButtonTypeHorizontalCenterLabelImage,
     JAButtonTypeHorizontalLeftImageLabel,
@@ -23,10 +22,9 @@ typedef enum : NSUInteger {
     JAButtonTypeVerticalTopLabelImage,
     JAButtonTypeVerticalBottomImageLabel,
     JAButtonTypeVerticalBottomLabelImage,
-    //ja
-    JAButtonTypeVerticalLeftCenterImageLabel,
     
-} JAButtonType;
+    JAButtonTypeVerticalCenterLeftImageLabel,
+};
 
 typedef NS_ENUM(NSUInteger, JAButtonUnreadDotImageAlignment) {
     JAButtonUnreadDotImageAlignmentRightTop,
@@ -53,12 +51,12 @@ typedef NS_ENUM(NSUInteger, JAButtonUnreadDotImageAlignment) {
 @property (nonatomic, strong) UIColor *ja_normalTitleColor;
 @property (nonatomic, strong) UIColor *ja_selectedTitleColor;
 
-//ja
 //未读标签图
-@property (nonatomic, assign) BOOL showUnreadDotImage; ///< default is hidden
-@property (nonatomic, assign) JAButtonUnreadDotImageAlignment unreadDotAlignment;
-@property (nonatomic, strong) UIImage *unreadDotImage;
-@property (nonatomic, assign) UIEdgeInsets dotImageInsets;
+//dotImageV default is hidden, default size is 10*10
+- (void)makeDotImageSetUpVBlock:(void (^)(UIImageView *dotImageV))dotImageVSetUpBlock;
+
+@property (nonatomic, assign) JAButtonUnreadDotImageAlignment ja_dotAlignment;
+@property (nonatomic, assign) UIEdgeInsets ja_dotImageInsets;
 
 
 
