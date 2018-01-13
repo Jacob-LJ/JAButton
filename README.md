@@ -9,6 +9,12 @@
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
+## Screenshots
+![image](https://github.com/Jacob-LJ/JAButton/raw/master/screenshots/Snip1.png)
+![image](https://github.com/Jacob-LJ/JAButton/raw/master/screenshots/Snip2.png)
+![image](https://github.com/Jacob-LJ/JAButton/raw/master/screenshots/Snip3.png)
+![image](https://github.com/Jacob-LJ/JAButton/raw/master/screenshots/Snip4.png)
+
 ## Requirements
 
 ## Installation
