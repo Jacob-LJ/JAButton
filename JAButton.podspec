@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'JAButton'
-  s.version          = '0.1.0'
+  s.version          = '0.2.0'
   s.summary          = 'JAButton.'
 
 # This description is used to generate tags and improve search results.
